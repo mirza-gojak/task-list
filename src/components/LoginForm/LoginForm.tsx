@@ -77,7 +77,13 @@ const LoginForm: FC<LoginFormProps> = ({ onFormChange }) => {
           Log in
         </Button>
         Or{" "}
-        <a href="#" onClick={onFormChange}>
+        <a
+          href=""
+          onClick={(e) => {
+            e.preventDefault();
+            onFormChange();
+          }}
+        >
           Register now!
         </a>
       </Form.Item>

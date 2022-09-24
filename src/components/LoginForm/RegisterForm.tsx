@@ -169,7 +169,13 @@ const RegisterForm: FC<RegisterFormProps> = ({ onFormChange }) => {
           Register
         </Button>
         Or{" "}
-        <a href="#" onClick={onFormChange}>
+        <a
+          href=""
+          onClick={(e) => {
+            e.preventDefault();
+            onFormChange();
+          }}
+        >
           Log In!
         </a>
       </Form.Item>

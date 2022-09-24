@@ -12,7 +12,7 @@ import ProjectPage from "pages/ProjectPage";
 import TaskPage from "pages/TaskPage";
 import TeamPage from "pages/TeamPage";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate,
