@@ -1,0 +1,17 @@
+.task-completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td {
+  background-color: white;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected:hover > td {
+  background-color: #fafafa;
+}
+
+th.ant-table-selection-column > .ant-table-selection {
+  display: none;
+}
